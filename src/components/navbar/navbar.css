@@ -1,0 +1,35 @@
+.navbar {
+    margin: 0;
+    display: flex;
+    background-color: #DBE3DF;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+.menu-group {
+    display: flex;
+
+}
+.menu-item {
+    list-style: none;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.link{
+    background-color: transparent;
+    border: 0;
+}
+.link:hover{
+    color: turquoise;
+}
